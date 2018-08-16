@@ -2,15 +2,15 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Catch the grid</title>
-  <link rel="shortcut icon" href="favicon.ico">
-  <link rel="stylesheet" type="text/css" href="css/index.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Catch the grid</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" type="text/css" href="index.css">
 </head>
 
 <body>
-  <svg class="hidden">
+    <svg class="hidden">
     <symbol id="icon-arrow" viewBox="0 0 24 24">
       <title>arrow</title>
       <polygon points="6.3,12.8 20.9,12.8 20.9,11.2 6.3,11.2 10.2,7.2 9,6 3.1,12 9,18 10.2,16.8 "/>
@@ -22,35 +22,35 @@
     </symbol>
   </svg>
 
-  <main>
-    <div class="content content--fixed">
-      <header class="game-header">
-        <div class="links">
-          <a class="game-icon codrops-icon--prev" href="" title="Back to the home page"><svg class="icon icon--arrow"><use xlink:href="#icon-arrow"></use></svg></a>
+    <main>
+        <div class="content content--fixed">
+            <header class="game-header">
+                <div class="links">
+                    <a class="game-icon codrops-icon--prev" href="" title="Back to the home page"><svg class="icon icon--arrow"><use xlink:href="#icon-arrow"></use></svg></a>
+                </div>
+                <h1 class="title">Catch The Grid</h1>
+                <span class="info">May speed be with you</span>
+            </header>
+            <div class="game-score">
+                Your score - <span id="counter"></span>
+            </div>
+            <div class="game-menu">
+                <button class="menu-trigger">+ Menu</button>
+            </div>
         </div>
-        <h1 class="title">Catch The Grid</h1>
-        <span class="info">May speed be with you</span>
-      </header>
-      <div class="game-score">
-        Your score - <span id="counter"></span>
-      </div>
-      <div class="game-menu">
-        <button class="menu-trigger">+ Menu</button>
-      </div>
-    </div>
-    <div id="content-1" class="content content--switch content--switch-current">
-      <div id="grid" class="grim">
-<!--
+        <div id="content-1" class="content content--switch content--switch-current">
+            <div id="grid" class="grim">
+                <!--
         <div class="grim__item">
           <div class="grim__item-bg"></div>
         </div>
 -->
-      </div>
-    </div>
-  </main>
+            </div>
+        </div>
+    </main>
 
-  <script src="js/anime.min.js"></script>
-  <script src="js/index.js"></script>
+    <script src="anime.min.js"></script>
+    <script src="index.js"></script>
 </body>
 
 </html>
